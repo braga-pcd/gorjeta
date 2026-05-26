@@ -29,19 +29,21 @@
                 <label for="outra">Selecione a gorjeta %</label>
 
                 <div>
-                    <input type="text" value="5%">
-                    <input type="text" value="10%">
-                    <input type="text" value="15%">
-                    <input type="text" value="25%">
-                    <input type="text" value="50%">
-                    <input type="text" name="outra" id="outra" placeholder="Outra">
+                    <input type="button" value="5%">
+                    <input type="button" value="10%">
+                    <input type="button" value="15%">
+                    <input type="button" value="25%">
+                    <input type="button" value="50%">
+                    <input type="number" name="outra" id="outra" placeholder="Outra">
                 </div>
             </div>
 
             <div class="pessoas">
-                <label for="pessoas">Quantidade de Pessoas</label>
+                <div class="textos">
+                    <label for="pessoas">Quantidade de Pessoas</label>
                 <p id="erro">Não pode ser 0</p>
-                <div>
+                </div>
+                <div class="input-box erro" >
                     <img src="./Imagens/icon-person.svg" alt="">
                     <input type="number" name="pessoas" id="pessoas" placeholder="0">
                 </div>
