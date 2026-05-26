@@ -21,6 +21,6 @@ function receberQuantidadePessoas(evento){
     }else{
         paragrafoErro.style.display= "none"
         divErro.setAttribute("id", "")
-        
-    }
+        pessoas = Number(evento.target.value)
+  }
 }
